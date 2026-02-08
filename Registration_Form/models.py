@@ -7,11 +7,10 @@ class Registration(models.Model):
     age = models.PositiveIntegerField()
     coupon = models.CharField(max_length=64)
     email = models.EmailField()
+    
     class Meta:
         db_table='Table_Registration'
 
 
     
-    def __str__(self):
-        return self.name
-
+   
