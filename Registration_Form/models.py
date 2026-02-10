@@ -23,9 +23,7 @@ class Registration(models.Model):
         ('500_plus', 'Above 500'),
     ]
 
-    # NATURE_OF_BUSINESS=[
-    #     ()
-    # ]
+
 
     # ---------- BUSINESS INFORMATION ----------
 
