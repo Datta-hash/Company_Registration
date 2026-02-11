@@ -60,7 +60,7 @@ class Registration(models.Model):
 
     pincode = models.CharField(max_length=10)
 
-    created_at = models.DateTimeField()
+    created_at = models.DateTimeField(auto_now_add=True)
 
     referred_by = models.ForeignKey('self',on_delete=models.SET_NULL, null=True,blank=True,related_name='referrals')
 
